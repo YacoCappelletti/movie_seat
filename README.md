@@ -1,28 +1,22 @@
-# Movie Seat
+# Movie Seat Reservation System
 
-Java Spring Boot practice project.
+A Java Spring Boot application for managing movie showtimes and seat reservations.
 
-## 🛠️ Stack
+## What's inside
+- Showtime and movie management (CRUD)
+- Cinema/room and seat layout modeling
+- Seat reservation workflow with concurrency handling
+- REST API with Spring Security
+- Maven wrapper for reproducible builds
 
-- Java + Spring Boot
-- Maven (with mvnw wrapper)
-- Spring JPA / Security
+## 🛠️ Tech Stack
+Java 17+, Spring Boot, Spring JPA, Spring Security, H2/MySQL, Maven.
 
-## 🎯 Learning Objectives
-
-Practice fundamental Java development:
-
-- MVC architecture with Spring Boot
-- Repository, Service, Controller patterns
-- Dependency injection
-- CRUD operations and unit testing
-
-## ▶️ Run
-
+## ▶️ Running it locally
 ```bash
 ./mvnw spring-boot:run
 ```
 
 ---
 
-> Educational project by Yaco Cappelletti
+> Project by Yaco Cappelletti
